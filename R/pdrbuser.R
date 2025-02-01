@@ -91,6 +91,8 @@ pdrbuser <- function() {
       View(hasil)
       assign("pdrbadhk_lapus5", hasil, envir = .GlobalEnv)
 
+    } else if (id_lapus == 6) {
+      konstruksi_adhk()
     } else {
       print("Selesai")
     }
@@ -154,6 +156,8 @@ pdrbuser <- function() {
 
       View(hasil)
       assign("pdrbadhb_lapus5", hasil, envir = .GlobalEnv)
+    } else if (id_lapus == 6) {
+      konstruksi_adhb()
     } else {
       print("Selesai")
     }
